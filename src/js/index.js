@@ -1,9 +1,7 @@
 import '../scss/styles.scss';
 
-console.info('Hello!')
+import Greet from './greet'
 
-let array = [1,2,3,4]
-const newArray = array.map( item => {
-    return item + 1
-})
-console.log(newArray)
+const greet = new Greet('Robby')
+
+console.log(greet.say())
