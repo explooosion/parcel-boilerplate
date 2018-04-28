@@ -1,0 +1,10 @@
+@import url('layout.scss');
+.btn {
+  width: 120px;
+  height: 28px;
+  border: 0;
+  background-color: #0A9F22;
+  &.btn-lg {
+    width: 240px;
+  }
+}

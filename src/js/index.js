@@ -1,4 +1,4 @@
-import '../scss/styles.scss';
+import '../scss/index.scss';
 
 import Greet from './greet'
 
